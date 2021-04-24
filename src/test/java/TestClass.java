@@ -18,9 +18,8 @@ public class TestClass {
         driver = new ChromeDriver(options);
         percy = new Percy(driver);
 
-        driver.get("https://www.google.com/");
+        driver.get("https://www.facebook.com/");
         percy.snapshot("Java example");
-
         driver.quit();
     }
 
